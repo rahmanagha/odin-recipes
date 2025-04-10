@@ -6,3 +6,7 @@ h1,
 h2 {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+
+img {
+  width: 400px;
+}
