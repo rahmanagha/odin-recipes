@@ -30,7 +30,28 @@ img {
   border: 1px solid rgb(156, 34, 34);
 }
 
-.recipe-links li a:hover {
+.recipe-links li a:hover,
+.home:hover {
   background-color: rgb(183, 35, 35);
   color: azure;
+}
+
+.ingredients {
+  list-style: circle;
+}
+
+.ingredients li {
+  padding: 5px;
+}
+
+.steps li {
+  padding: 5px;
+}
+
+.home {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  color: brown;
+  padding: 10px;
 }
